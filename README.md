@@ -18,14 +18,14 @@ For the Visually Rich Document Understanding (VRDU) task of Key Information Extr
 The publicly available datasets are concentrated on receipts, invoices, and simple forms without adding much diversity to the industry domain/use cases. The publicly available datasets minimally capture those forms filled character-by-character within boxes/placeholders and have wide-scale relevance in the financial, medical, and logistics industries. Thus to further fuel the research for VRDU task, we open-source two categories of datasets as follows :
 
 
-## Dataset Desriptions
-1. [Description](#desc) .
-    a. [Category 1](#cat1) .
-        - [Folder Structure](#fold1) .
-        - [File Description](#filedesc1)
-    b. [Category 2](#cat2) .
-        - [Folder Structure](#fold2) .
-        - [File Description](#filedesc2) .
+### Dataset Desriptions
+1. [Description](#desc).   
+    a. [Category 1](#cat1).   
+        - [Folder Structure](#fold1).   
+        - [File Description](#filedesc1).   
+    b. [Category 2](#cat2).   
+        - [Folder Structure](#fold2).   
+        - [File Description](#filedesc2).   
 
 ---
 <a name="desc"></a>
@@ -97,14 +97,14 @@ It contains 7 documents types which are forms with fields filled character-by-ch
 ```
 .
 |-- cat_2
-|-- corporate_bank_account
-|-- equity_mortgage
-|-- medical_authorization
-|-- medical_insurance_enrollment
-|-- medical_tax_returns
-|-- online_banking_application
-`-- personal_bank_account
-
+|    |-- corporate_bank_account
+|    |-- equity_mortgage
+|    |-- medical_authorization
+|    |-- medical_insurance_enrollment
+|    |-- medical_tax_returns
+|    |-- online_banking_application
+|    `-- personal_bank_account
+|
 
 ```
 Evert dataset folder has the following structure :
@@ -170,5 +170,5 @@ Please consult the [security guide](./SECURITY.md) for our responsible security 
 
 ## License
 
-Copyright (c) 2023 Oracle and/or its affiliates.
+Copyright (c) 2023 Oracle and/or its affiliates.  
 Released under the CC0 1.0 Universal as shown at [license guide](./LICENSE.txt).
