@@ -1,5 +1,3 @@
-*Detailed instructions on how to contribute to the project, if applicable. Must include section about Oracle Contributor Agreement with link and instructions*
-
 # Contributing to this repository
 
 We welcome your contributions! There are multiple ways to contribute.
@@ -12,9 +10,9 @@ the more likely it is to be fixed. If you think you've found a security
 vulnerability, do not raise a GitHub issue and follow the instructions in our
 [security policy](./SECURITY.md).
 
-## Contributing code
+## Contributing code/data
 
-We welcome your code contributions. Before submitting code via a pull request,
+We welcome your code/data contributions. Before submitting code/data via a pull request,
 you will need to have signed the [Oracle Contributor Agreement][OCA] (OCA) and
 your commits need to include the following line using the name and e-mail
 address you used to sign the OCA:
