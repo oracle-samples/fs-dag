@@ -18,22 +18,21 @@ For the Visually Rich Document Understanding (VRDU) task of Key Information Extr
 The publicly available datasets are concentrated on receipts, invoices, and simple forms without adding much diversity to the industry domain/use cases. The publicly available datasets minimally capture those forms filled character-by-character within boxes/placeholders and have wide-scale relevance in the financial, medical, and logistics industries. Thus to further fuel the research for VRDU task, we open-source two categories of datasets as follows :
 
 
-# Table of Content
-1. [Description](#desc)
-    a. [Category 1](#cat1)
-        - [Folder Structure](#fold1)
+## Dataset Desriptions
+1. [Description](#desc) .
+    a. [Category 1](#cat1) .
+        - [Folder Structure](#fold1) .
         - [File Description](#filedesc1)
-    b. [Category 2](#cat2)
-        - [Folder Structure](#fold2)
-        - [File Description](#filedesc2)
-2. [Tasks](#task)
+    b. [Category 2](#cat2) .
+        - [Folder Structure](#fold2) .
+        - [File Description](#filedesc2) .
 
 ---
 <a name="desc"></a>
-## Dataset Categories
+### Dataset Categories
 ---
 <a name="cat1"></a>
-### Category 1
+#### Category 1
 
 It contains 5 documents types as described :
 
@@ -44,7 +43,7 @@ It contains 5 documents types as described :
 5. **Visa Form** : Contains Non-Immigrant Visa Application form issued by U.S. Department of State. The forms are filled by human annotators using non-existential/faker data that cannot be used to identify any human thus removing PII.
 
 <a name="fold1"></a>
-#### Folder Structure
+##### Folder Structure
 ```
 .
 |-- cat_1
@@ -69,7 +68,7 @@ Evert dataset folder has the following structure :
 
 <a name="filedesc1"></a>
 
-#### Files Description
+##### Files Description
 
 1. ```class_list.txt``` : Contains the list of fine-grained key-values (classes) that needs to be extracted from the document
 
@@ -81,7 +80,7 @@ Evert dataset folder has the following structure :
 
 ---
 <a name="cat2"></a>
-### Category 2
+#### Category 2
 
 It contains 7 documents types which are forms with fields filled character-by-character. These type of forms are used across various industry verticals and have be **programmatically filled**. The document types are described as follows :
 
@@ -94,7 +93,7 @@ It contains 7 documents types which are forms with fields filled character-by-ch
 7. **Medical Insurance Enrollement** : Contains Group Enrollment Form for Medical Insurance.
 
 <a name="fold2"></a>
-#### Folder Structure
+##### Folder Structure
 ```
 .
 |-- cat_2
@@ -123,7 +122,7 @@ Evert dataset folder has the following structure :
 `-- visualise
 ```
 <a name="filedesc2"></a>
-#### Files Description
+##### Files Description
 
 1. ```class_list.txt``` : Contains the list of fine-grained key-values (classes) that needs to be extracted from the document
 
@@ -141,7 +140,10 @@ Evert dataset folder has the following structure :
 5. ```visualise.txt``` : The folder visualise the bounding box for each word in files ending with ```_word.png``` in blue color. Images ending with ```_entity.png``` contain word level bounding box in **red** while entity level bounding box in **blue**.
 
 <a name="task"></a>
-## Tasks
+
+
+
+## Example Tasks
 
 The dataset can be used for various Document Understanding tasks and models like :
 
@@ -149,9 +151,7 @@ The dataset can be used for various Document Understanding tasks and models like
 2. **Entity Linking (EL)** : The entity level annotation in Category 2 dataset can be exploited to benchmark entity linking models.
 3. **Optical Character Recognition(OCR)** : OCR models can be used to check efficiency in complex real world documents across both categories of dataset.
 
-## Examples
 
-*Describe any included examples or provide a link to a demo/tutorial*
 
 ## Help
 
@@ -162,8 +162,6 @@ Reach out to :
 
 ## Contributing
 
-*If your project has specific contribution requirements, update the CONTRIBUTING.md file to ensure those requirements are clearly explained*
-
 This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md)
 
 ## Security
@@ -172,12 +170,5 @@ Please consult the [security guide](./SECURITY.md) for our responsible security 
 
 ## License
 
-*The correct copyright notice format for both documentation and software is*
-    "Copyright (c) [year,] year Oracle and/or its affiliates."
-*You must include the year the content was first released (on any platform) and the most recent year in which it was revised*
-
 Copyright (c) 2023 Oracle and/or its affiliates.
-
-*Replace this statement if your project is not licensed under the UPL*
-
 Released under the CC0 1.0 Universal as shown at [license guide](./LICENSE.txt).
