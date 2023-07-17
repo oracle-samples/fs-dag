@@ -10,7 +10,7 @@ the more likely it is to be fixed. If you think you've found a security
 vulnerability, do not raise a GitHub issue and follow the instructions in our
 [security policy](./SECURITY.md).
 
-## Contributing code/data
+## Contributing code
 
 We welcome your code/data contributions. Before submitting code/data via a pull request,
 you will need to have signed the [Oracle Contributor Agreement][OCA] (OCA) and
